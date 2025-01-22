@@ -37,7 +37,7 @@ def sendMessage(smtpServer, port, fromAddress,
 		toAddress = args[4]
 		message = args[5]
 		sendMessage(smtpServer, port, fromAddress,
-				to Address, message)
+				toAddress, message)
 	
 	if __name__ == "__main__":
 		main(sys.argv)
